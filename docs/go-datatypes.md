@@ -1,4 +1,4 @@
-# DataTypes
+# DataTypes in Go
 
 ```go
 // --- Tipos básicos predefinidos ---
