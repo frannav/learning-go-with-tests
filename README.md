@@ -1,5 +1,8 @@
 # Learning Go with Tests 🏗️
 
+- [Quick ref to go](https://learnxinyminutes.com/es/go/)
+- [Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests)
+
 ## Index
 
 TODO
