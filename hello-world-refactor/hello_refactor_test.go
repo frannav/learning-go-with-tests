@@ -4,14 +4,26 @@ import "testing"
 
 func TestHelloRefactor(t *testing.T) {
 	t.Run("Say custom hello", func(t *testing.T) {
-		got := HelloRefactor("Pepe")
+		got := HelloRefactor("Pepe", "")
 		want := "Hello, " + "Pepe"
 		assertCorrectString(t, got, want)
 	})
 
 	t.Run("Say 'Hello, world' when an empty string is passed to the function", func(t *testing.T) {
-		got := HelloRefactor("")
+		got := HelloRefactor("", "")
 		want := "Hello, " + "world"
+		assertCorrectString(t, got, want)
+	})
+
+	t.Run("Say custom hello in spanish", func(t *testing.T) {
+		got := HelloRefactor("Paco", "Spanish")
+		want := "Hola, Paco"
+		assertCorrectString(t, got, want)
+	})
+
+	t.Run("Say custom hello in French", func(t *testing.T) {
+		got := HelloRefactor("Paco", "French")
+		want := "Bonjour, Paco"
 		assertCorrectString(t, got, want)
 	})
 }
