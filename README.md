@@ -50,6 +50,14 @@ Para escribir un test crearemos una función pero con algunas reglas:
 
 ### Docs
 
+Go tiene una herramienta incorporada que te permite examinar cualquier paquete instalado en tu sistema o módulo en el que estás trabajando. 
+
+```bash
+go doc fmt
+```
+
+### Apuntes
+
 Iré añadiendo diferentes apuntes que voy haciendo.
 
 - [DataTypes](docs/go-datatypes.md)
